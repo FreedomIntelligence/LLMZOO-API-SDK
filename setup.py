@@ -9,6 +9,7 @@ setup(
     author_email='wangbenyou@cuhk.edu.cn',
     license='BSD 2-clause',
     packages=['llmzoo'],
+    setup_requires=['setuptools_scm'],
     data_files = [("config", ["config/ip.config"])],
     package_data = {'llmzoo': ['config/ip.config']},
     include_package_data=True,

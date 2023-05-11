@@ -9,8 +9,8 @@ class Model:
 		config = configparser.ConfigParser()
 
 		current_path,_ = os.path.split(os.path.abspath(__file__))
-		# print(os.path.join(current_path,'../config/ip.config'))
-		config.read(os.path.join(current_path,'../config/ip.config'))
+		# print(os.path.join(current_path,'ip.config'))
+		config.read(os.path.join(current_path,'ip.config'))
 		
 		config.sections()
 		if model_name in config["MODELS"]:

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='llmzoo',
-    version='0.1.6',    
+    version='0.1.7',    
     description='A example Python package',
     url='https://github.com/FreedomIntelligence/LLMZOO-API-SDK',
     author='Benyou Wang',

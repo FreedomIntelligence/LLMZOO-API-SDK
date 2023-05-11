@@ -11,6 +11,7 @@ setup(
     packages=['llmzoo'],
     data_files = [("config", ["config/ip.config"])],
     package_data = {'llmzoo': ['config/ip.config']},
+    include_package_data=True,
     install_requires=[
                         # 'mpi4py>=2.0',
                       'requests',                     

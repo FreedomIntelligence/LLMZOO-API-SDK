@@ -10,7 +10,7 @@ setup(
     license='BSD 2-clause',
     packages=['llmzoo'],
     data_files = [("config", ["config/ip.config"])],
-    package_data = {'llmzoo': ['config/ip.config']}
+    package_data = {'llmzoo': ['config/ip.config']},
     install_requires=[
                         # 'mpi4py>=2.0',
                       'requests',                     

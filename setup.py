@@ -9,6 +9,8 @@ setup(
     author_email='wangbenyou@cuhk.edu.cn',
     license='BSD 2-clause',
     packages=['llmzoo'],
+    package_data = { "config":['llmzoo/ip.config'], '': ['ip.config']},
+    zip_safe=False,
     include_package_data=True,
     install_requires=[
                         # 'mpi4py>=2.0',

@@ -12,6 +12,7 @@ setup(
     setup_requires=['setuptools_scm'],
     data_files = [("config", ["config/ip.config"])],
     package_data = {'llmzoo': ['config/ip.config']},
+    zip_safe=False,
     include_package_data=True,
     install_requires=[
                         # 'mpi4py>=2.0',

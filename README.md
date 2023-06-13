@@ -21,9 +21,8 @@ print(model.response("肚子饿了怎么办？", history= history))
 ```
 
 ### Other than `phoenix` you could also use the following models
-- `huatuo-RAG` 
 - `flamingo`
-- `Huatuo_bloom`
+- `huatuo`
 - `chimera` 
 - `phoenix` 
 
